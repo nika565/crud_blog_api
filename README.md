@@ -44,13 +44,13 @@ Antes de começar, você precisará ter as seguintes ferramentas instaladas em s
    Primeiro, clone o repositório do projeto para sua máquina local utilizando o comando abaixo:
 
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   [git clone https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/nika565/crud_blog_api.git)
 Navegue até o Diretório do Projeto
 
 Após clonar o repositório, navegue até o diretório do projeto:
 
 ```bash
-cd nome-do-repositorio
+cd crud_blog_api
 Execute o Projeto com Maven
 
 Para rodar o projeto, utilize o Maven para executar a aplicação Spring Boot. No terminal, dentro do diretório do projeto, execute:
