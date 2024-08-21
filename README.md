@@ -44,29 +44,34 @@ Antes de começar, você precisará ter as seguintes ferramentas instaladas em s
    Primeiro, clone o repositório do projeto para sua máquina local utilizando o comando abaixo:
 
    ```bash
-   [git clone https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/nika565/crud_blog_api.git)
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   ```
 Navegue até o Diretório do Projeto
 
 Após clonar o repositório, navegue até o diretório do projeto:
 
 ```bash
 cd crud_blog_api
+```
 Execute o Projeto com Maven
 
 Para rodar o projeto, utilize o Maven para executar a aplicação Spring Boot. No terminal, dentro do diretório do projeto, execute:
 
 ```bash
 ./mvnw spring-boot:run
+```
 Ou, se estiver utilizando Windows:
 
 ```bash
 mvnw.cmd spring-boot:run
+```
 Acesse a API
 
 Após a aplicação iniciar, você poderá acessar a API através do endereço:
 
 ```arduino
 http://localhost:8080
+```
 Testando a API
 Você pode testar os endpoints da API utilizando ferramentas como Postman ou cURL.
 
@@ -75,16 +80,20 @@ Você pode testar os endpoints da API utilizando ferramentas como Postman ou cUR
 
 ```bash
 curl -X POST http://localhost:8080/posts -H "Content-Type: application/json" -d '{"title":"Meu Segundo Post","content":"Este é o conteúdo do meu segundo post."}'
+```
 ### Listar todos os posts:
 
 ```bash
 curl -X GET http://localhost:8080/posts
+```
 ### Atualizar um post existente:
 
 ```bash
 curl -X PUT http://localhost:8080/posts/1 -H "Content-Type: application/json" -d '{"title":"Meu Post Atualizado","content":"Conteúdo atualizado."}'
+```
 ### Deletar um post:
 
 ```bash
 curl -X DELETE http://localhost:8080/posts/1
+```
 
